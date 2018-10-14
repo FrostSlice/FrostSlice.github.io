@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>Website Prototype - Mobile</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Prototype of Modern Website">
+  <meta name="keywords" content="website, sleek, modern, prototype">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+
+  <script>
+  var jmediaquery = window.matchMedia( "(min-width: 541px)" )
+    if (jmediaquery.matches) {
+        window.location = "index.html"
+      }
+  </script>
+
+  <link rel= "stylesheet" href="mobile.css">
+</head>
+
+<header>
+  <div class="Navigation">
+    <ul>
+      <li><a>Home</a></li>
+      <li><a>Download</a></li>
+      <li><a>Dev Log</a></li>
+
+      <li class="Name"><a>DIV</a></li>
+    </ul>
+  </div>
+</header>
+
+<body>
+  <div id="mobile-js"></div>
+
+  <script src="JvRes/particles.js"></script>
+  <script src="JvRes/app.js"></script>
+
+  <div class="Wrapper">
+    <div class="Center">
+    <img class="Icon" src="ImgRes/Crown.svg" width="200vw" height="200vh">
+    <img class="Detail" src="ImgRes/MobileLine.svg" style="left: 65%;" width="200vw" height="200vh">
+    <img class="Detail" src="ImgRes/MobileLineAlt.svg" style="right: 77.5%;" width="200vw" height="200vh">
+
+    <table>
+      <tr>
+        <td>Done In Vain</td>
+      </tr>
+      <tr>
+        <td>Pre Alpha</td>
+      </tr>
+      <tr>
+        <td>Windows/Mac</td>
+      </tr>
+      <tr>
+        <td>_</td>
+        <div class="Button"><p>Download</p></div>
+      </tr>
+    </table>
+  </div>
+
+  </div>
+</body>
+
+</html>

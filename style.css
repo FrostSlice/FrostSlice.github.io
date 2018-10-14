@@ -1,11 +1,11 @@
 @font-face {
   font-family: Sailor;
-  src: url(Sailor.otf);
+  src: url(FntRes/Sailor.woff2);
 }
 
 @font-face {
   font-family: Rounded;
-  src: url(mensch.ttf);
+  src: url(FntRes/mensch.woff);
 }
 
 @keyframes pulse-dot {
@@ -72,14 +72,14 @@ li a {
 .button p {
   color: #343233;
   font-family: Rounded;
-  font-size: 2.5vw;
+  font-size: 2rem;
   padding-bottom: 2.5vh;
 }
 
 .circle {
   border-radius: 50%;
   width: 12.5vw;
-  height: 25vh;
+  height: 12.5vw;
   background-color: #FFD152;
 
   position: absolute;
@@ -92,12 +92,12 @@ li a {
 .circle p {
   text-align: center;
   font-family: Rounded;
-  font-size: 4vw;
+  font-size: 3.5vw;
 }
 
 #foot {
-  font-size: 1rem;
-  transform: translateY(-200%);
+  font-size: 1.25vw;
+  transform: translateY(-150%);
 }
 
 .centerup {
@@ -149,6 +149,12 @@ li a {
     height: 100%;
     position: fixed;
     left: 50%;
+}
+
+#mobile-js {
+  z-index: -5;
+  width: 0%;
+  height: 0%;
 }
 
 table {
