@@ -65,9 +65,11 @@ table tr:first-child td {
   position: absolute;
   background-color: #FFD152;
   border-radius: 6px;
+  top: 93.5%;
+  left: 49%;
   width: 90%;
   height: 10%;
-  transform: translate(4%, 412.5%);
+  transform: translate(-50%, -50%);
 }
 
 .Button p {
@@ -93,7 +95,8 @@ td {
 }
 
 .Detail {
-  position: absolute;
+  position: fixed;
+  top: 50%;
 }
 /* End Icons */
 

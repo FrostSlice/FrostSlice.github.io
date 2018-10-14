@@ -1,7 +1,6 @@
 @font-face {
   font-family: Sailor;
-  src: url(FntRes/Sailor.woff2) format("woff2"),
-  url(FntRes/Sailor.woff) format("woff");
+  src: url(FntRes/Sailor.woff2),
 }
 
 @font-face {
