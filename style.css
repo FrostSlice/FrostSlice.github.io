@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @font-face {
   font-family: Sailor;
   src: url(FntRes/Sailor.woff2);
@@ -177,3 +178,178 @@ td{
     color: #EFDAB9;
     padding: 16px 40px;
   }
+=======
+@font-face {
+  font-family: Sailor;
+  src: url(Sailor.otf);
+}
+
+@font-face {
+  font-family: Rounded;
+  src: url(mensch.ttf);
+}
+
+@keyframes pulse-dot {
+  0% {
+    -webkit-transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(0.9);
+  }
+  100% {
+    -webkit-transform: scale(1);
+  }
+}
+
+.container {
+  z-index: -1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #343233;
+  width: 100%;
+  height: 100%;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FFD152;
+}
+
+li {
+  float: left;
+}
+
+.name {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: #343233;
+  font-family: Sailor;
+  font-size: 1rem;
+  text-align: center;
+  padding:  14px 18px;
+}
+
+.button {
+  background-color: #FFD152;
+  border-radius: 6px;
+  z-index: 3;
+  width: 95%;
+  height: 20%;
+  text-align: center;
+}
+
+.button p {
+  color: #343233;
+  font-family: Rounded;
+  font-size: 2.5vw;
+  padding-bottom: 2.5vh;
+}
+
+.circle {
+  border-radius: 50%;
+  width: 12.5vw;
+  height: 25vh;
+  background-color: #FFD152;
+
+  position: absolute;
+  -webkit-transform-origin: center;
+  transform: translate(50%, 50%);
+
+  animation: pulse-dot 2s infinite;
+}
+
+.circle p {
+  text-align: center;
+  font-family: Rounded;
+  font-size: 4vw;
+}
+
+#foot {
+  font-size: 1rem;
+  transform: translateY(-200%);
+}
+
+.centerup {
+  top: 70%;
+  left: 50%;
+}
+
+.bottom {
+  top: 87.5%;
+  left: 50%;
+}
+
+.bottom p {
+  top: 10%;
+  left: 50%;
+}
+
+.mid, .mid p {
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.detail {
+  position: absolute;
+  transform: translate(-50%, 55%);
+}
+
+.midright {
+  left: 72.5%;
+}
+
+.midleft {
+  left: 27.5%;
+}
+
+.icon {
+  top: -50%;
+  left: 50%;
+}
+
+#particles-js{
+  width: 50%;
+    height: 100%;
+    position: fixed;
+}
+
+#particles-js2{
+  width: 50%;
+    height: 100%;
+    position: fixed;
+    left: 50%;
+}
+
+table {
+    border-collapse:separate;
+    border: solid #EED9B7 0.1rem;
+    border-radius:12px;
+}
+
+.Top td {
+     border-top: none;
+     color: #78AF9F;
+     font-weight: bold;
+}
+
+td{
+    border-left:none;
+    border-top:solid #EED9B7 1px;
+    font: 2.5vw Rounded;
+    text-align: center;
+    color: #EFDAB9;
+    padding: 16px 40px;
+  }
+>>>>>>> 45cc229d2689944d495e8f4032cbe1dd751b6206
