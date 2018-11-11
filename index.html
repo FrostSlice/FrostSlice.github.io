@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+  	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<meta name="keywords" content="">
+  	<meta name="description" content="">
+
+    <title>Rockaway Electric Supply</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <section id="Navigation">
+      <div class="container">
+        <div class="row">
+
+          <a href="#" class="Branding NonMobile">Rockaway Electric Supply</a>
+          <a href="#" class="Branding Mobile">RES</a>
+
+          <ul class="NavMenu">
+            <li><a href="#">About</a></li>
+            <li><a href="#Stock">Stock</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="Header" class="Header-One">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-md-offset-3 col-md-6 col-sm-offset-2 col-sm-8">
+            <div class="Header-Thumb">
+              <h1>Electrical Supplies?</h1>
+              <h2>We Have Them at Quality Prices!</h2>
+              </div>
+            </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="Stock">
+      <div class="container">
+        <div class="row">
+          <p id="Header" class="Header-Two">Inventory</p>
+
+          <div class="col-md-3 col-sm-6 col-xs-12 Item">
+            <div class="Thumb">
+                <img class="img-responsive" src="https://res.cloudinary.com/dwh2bcbgu/image/upload/v1541895069/tools.jpg" alt="">
+              <div class="Overlay">
+                <a href="#"><h2 class="Stock-Item">Hardware Tools</h2></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6 col-xs-12 Item">
+            <div class="Thumb">
+                <img class="img-responsive" src="https://res.cloudinary.com/dwh2bcbgu/image/upload/v1541895069/wood.jpg" alt="">
+              <div class="Overlay">
+                <a href="#"><h2 class="Stock-Item">Materials</h2></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6 col-xs-12 Item">
+            <div class="Thumb">
+                <img class="img-responsive" src="https://res.cloudinary.com/dwh2bcbgu/image/upload/v1541895068/lights.jpg" alt="">
+              <div class="Overlay">
+                <a href="#"><h2 class="Stock-Item">Lighting</h2></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6 col-xs-12 Item">
+            <div class="Thumb">
+                <img class="img-responsive" src="https://res.cloudinary.com/dwh2bcbgu/image/upload/v1541895069/pipes.jpg" alt="">
+              <div class="Overlay">
+                <a href="#"><h2 class="Stock-Item">Electrical Pipes</h2></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6 col-xs-12 Item">
+            <div class="Thumb">
+                <img class="img-responsive" src="https://res.cloudinary.com/dwh2bcbgu/image/upload/v1541895069/wires.jpg" alt="">
+              <div class="Overlay">
+                <a href="#"><h2 class="Stock-Item">Electrical Wiring</h2></a>
+              </div>
+            </div>
+          </div>
+
+          </div>
+        </div>
+      </section>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script>
+      var $root = $('html, body');
+
+      $('a[href^="#"]').click(function () {
+        $root.animate({
+          scrollTop: $( $.attr(this, 'href') ).offset().top
+        }, 1000);
+
+        return false;
+      });
+    </script>
+
+  </body>
+
+</html>
