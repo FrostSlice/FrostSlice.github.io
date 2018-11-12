@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: Dosis;
-  src: url(fnt/Dosis-Regular.otf);
+  src: url(fnt/Dosis-Regular.woff);
 }
 
 a:focus, a:hover {
@@ -93,11 +93,23 @@ h2 {
   padding-bottom: 30px;
   font: 40px Dosis;
 }
+
+.Header-Three {
+  color: #FFFFFF;
+  font: 40px Dosis;
+  padding-top: 80px;
+}
+
+.Header-Four {
+  color: #EE4E7C;
+  font-size: 24px;
+}
 /* End Headers */
 
 /* Stock */
 #Stock {
   padding-top: 75px;
+  padding-bottom: 25px;
 }
 
 .Item {
@@ -133,6 +145,31 @@ h2 {
 
 /* End Stock */
 
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 1em;
+}
+
+::-webkit-scrollbar-track-piece{
+  background: #FFFFFF;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #EE4E7C;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #DE3368;
+}
+/* End Scrollbar */
+
+/* Contact */
+#About {
+  height: 80vh;
+  background: #121826;
+}
+/* End Contact */
+
 /* Mobile Modifications */
 .Mobile {
   visibility: hidden;
@@ -142,12 +179,19 @@ h2 {
   display: inline-block;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 640px) and (min-width:320px) {
   .Mobile {visibility: visible!important;}
   .NonMobile {display: none!important;}
   .Branding {margin: 15px 10px;}
   .NavMenu {float: right;}
   .NavMenu li {margin: 0 10px;}
   #Navigation a {font-size: 22px!important;}
+  .Header-One {padding-top: 125px!important;}
 }
+
+@media screen and (max-width: 320px) {
+  #Navigation a {font-size: 17px!important;}
+  .Header-One {padding-top: 50px!important;}
+}
+
 /* End Mobile Modifications */
