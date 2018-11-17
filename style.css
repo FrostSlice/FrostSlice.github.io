@@ -80,7 +80,7 @@ h2 {
 .Header-Thumb {
   background: #FFFFFF;
   border: 6px solid #EE4E7C;
-  padding: 32px 20px 32px 20px !important;
+  padding: 32px 16px 32px 16px!important;
 }
 
 .Header-One { /* Landing */
@@ -177,7 +177,7 @@ footer {
 
 .Footer-Copyright {
   padding-top: 40px;
-  font: 18px Dosis;
+  font: 20px Dosis;
 }
 
 .Fineprint {
