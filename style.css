@@ -103,6 +103,17 @@ h2 {
 .Header-Four {
   color: #EE4E7C;
   font-size: 24px;
+  letter-spacing: 0.1rem;
+}
+
+.Header-Five {
+  color: #FFFFFF;
+  font: 30px Dosis;
+  padding-top: 20px;
+}
+
+.Adjust {
+  padding-bottom: 20px;
 }
 /* End Headers */
 
@@ -163,8 +174,15 @@ h2 {
 }
 /* End Scrollbar */
 
-/* Contact */
+/* About */
 #About {
+  height: 75vh;
+  background: #121826;
+}
+/* End About */
+
+/* Contact */
+#Contact {
   height: 80vh;
   background: #121826;
 }
@@ -187,11 +205,12 @@ h2 {
   .NavMenu li {margin: 0 10px;}
   #Navigation a {font-size: 22px!important;}
   .Header-One {padding-top: 125px!important;}
+  #About {height: 100vh}
 }
 
 @media screen and (max-width: 320px) {
   #Navigation a {font-size: 17px!important;}
   .Header-One {padding-top: 50px!important;}
+  .Header-Four {font-size: 20px;}
 }
-
 /* End Mobile Modifications */
