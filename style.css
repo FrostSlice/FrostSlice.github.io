@@ -106,10 +106,10 @@ h2 {
   letter-spacing: 0.1rem;
 }
 
-.Header-Five {
+p#Header.Header-Five {
   color: #FFFFFF;
-  font: 30px Dosis !important;
-  padding-top: 20px !important;
+  font: 30px Dosis;
+  padding-top: 20px;
 }
 
 .Adjust {
@@ -183,7 +183,7 @@ h2 {
 
 /* Contact */
 #Contact {
-  height: 80vh;
+  height: 75vh;
   background: #121826;
 }
 /* End Contact */
