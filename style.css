@@ -108,8 +108,8 @@ h2 {
 
 .Header-Five {
   color: #FFFFFF;
-  font: 30px Dosis;
-  padding-top: 20px;
+  font: 30px Dosis !important;
+  padding-top: 20px !important;
 }
 
 .Adjust {
