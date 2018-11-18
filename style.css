@@ -165,7 +165,7 @@ p#Header.Header-Five {
 
 /* Contact */
 #Contact {
-  height: 80vh;
+  height: 100vh;
   background: #121826;
 }
 /* End Contact */
@@ -200,6 +200,10 @@ footer {
 .Icon {
   width: 36px;
   height: auto;
+}
+
+.Icon:hover {
+  border-bottom: 5px #EE4E7C solid;
 }
 /* End Footer */
 
