@@ -1,6 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php
+if($_POST["submit"]) {
+    $recipient="justafakeemail019@gmail.com";
+    $subject=$_POST["subject"];
+    $senderEmail=$_POST["senderEmail"];
+    $message=$_POST["message"];
 
+    $mailBody="Name: $senderEmail\n\n$message";
+
+    mail($recipient, $subject, $mailBody, "From: <$senderEmail>");
+}
+?> <!DOCTYPE html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
   	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
@@ -118,6 +128,19 @@
           <p id="Header" class="Header-Three">Contact</p>
           <h2 id="Header" class="Header-Four">Need Additional Help? Have Questions?</h2>
           <h2 id="Header" class="Header-Four">Send an E-Mail or Call Us!</h2>
+
+          <form method="post" action="index.html">
+        <label>Subject:</label>
+        <input name="subject">
+
+        <label>Email address:</label>
+        <input name="senderEmail">
+
+        <label>Message:</label>
+        <textarea rows="5" cols="20" name="message"></textarea>
+
+        <input type="submit" name="submit">
+    </form>
           </div>
         </div>
       </section>
