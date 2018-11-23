@@ -168,6 +168,29 @@ p#Header.Header-Five {
   height: 100vh;
   background: #121826;
 }
+
+.Title {
+  padding-top: 20px;
+  color: #FFFFFF;
+}
+
+.Details {
+  color: #FFFFFF;
+  font-size: 26px;
+}
+
+.VerticalDiv {
+  visibility: visible;
+  position: absolute;
+  background: #EE4E7C;
+  left: 20%;
+  height: 50vh;
+  width: 3px;
+}
+
+.Alt {
+  left: 80%;
+}
 /* End Contact */
 
 /* Footer */
@@ -245,6 +268,7 @@ footer {
   #About {height: 100vh}
   .Icon {width: 26px;}
   #SocialMedia a {margin: 0 15px 0 15px;}
+  .VerticalDiv {visibility: hidden;}
 }
 
 @media screen and (max-width: 320px) {

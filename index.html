@@ -1,15 +1,4 @@
-<?php
-if($_POST["submit"]) {
-    $recipient="justafakeemail019@gmail.com";
-    $subject=$_POST["subject"];
-    $senderEmail=$_POST["senderEmail"];
-    $message=$_POST["message"];
-
-    $mailBody="Name: $senderEmail\n\n$message";
-
-    mail($recipient, $subject, $mailBody, "From: <$senderEmail>");
-}
-?> <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -128,19 +117,16 @@ if($_POST["submit"]) {
           <p id="Header" class="Header-Three">Contact</p>
           <h2 id="Header" class="Header-Four">Need Additional Help? Have Questions?</h2>
           <h2 id="Header" class="Header-Four">Send an E-Mail or Call Us!</h2>
-
-          <form method="post" action="index.html">
-        <label>Subject:</label>
-        <input name="subject">
-
-        <label>Email address:</label>
-        <input name="senderEmail">
-
-        <label>Message:</label>
-        <textarea rows="5" cols="20" name="message"></textarea>
-
-        <input type="submit" name="submit">
-    </form>
+          <div>
+            <div class="VerticalDiv"></div>
+            <div class="VerticalDiv Alt"></div>
+            <h2 id="Header" class="Title">Email</h2>
+            <h2 id="Header" class="Details">info@rockawayelectricsupply.com</h2>
+            <h2 id="Header" class="Title">Phone</h2>
+            <h2 id="Header" class="Details">(718)-480-1704</h2>
+            <h2 id="Header" class="Title">Fax</h2>
+            <h2 id="Header" class="Details">(718)-480-1705</h2>
+          </div>
           </div>
         </div>
       </section>
@@ -168,7 +154,7 @@ if($_POST["submit"]) {
         </ul>
       </footer>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
     <script src="js/bootstrap.min.js"></script>
 
     <script>
